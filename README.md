@@ -57,7 +57,8 @@ nin-auth-system/
  
 Installation
 Clone the repository
-git clone https://github.com/yourusername/nin-auth-system.git
+git clone 
+[https://github.com/ExoticCodesfromHeaven/NIN-AUTHORIZATION-SYSTEM.git]
 Navigate to the project
 cd nin-auth-system
 Install frontend dependencies
@@ -108,6 +109,14 @@ POST	/api/auth/register	Register a new user
 POST	/api/auth/login	Authenticate a user
 GET	/api/auth/profile	Retrieve authenticated user’s profile
  
+⸻
+
+Live Demo:
+https://nin-authorization-system.vercel.app/
+
+Github Repo:
+https://github.com/ExoticCodesfromHeaven/NIN-AUTHORIZATION-SYSTEM
+
 ⸻
  
 Future Improvements
