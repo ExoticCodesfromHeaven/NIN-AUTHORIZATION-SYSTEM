@@ -1,0 +1,21 @@
+### Register User
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+    "nin": "12345678901",
+    "password": "password123"
+}
+
+### Login User
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "nin": "12345678901",
+    "password": "password123"
+}
+
+### Get Profile
+GET http://localhost:5000/api/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhM2MwOTk2MTFlYjUyNjA2OGEyMzM2NSIsImlhdCI6MTc4MjMxOTYwMSwiZXhwIjoxNzgyNDA2MDAxfQ.l2wUBBbF475scUG0t2umd2XCb6-p5w6hfHyDkd6D6L8
